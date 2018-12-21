@@ -2,7 +2,7 @@
   "name": "sextant",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "zhangyi09 <zhangyi09@corp.netease.com>",
+  "author": "mowozy <mowozy@foxmail.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
