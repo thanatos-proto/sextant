@@ -7,7 +7,7 @@
           <div class="entrance_subtittle-item">分</div>
           <div class="entrance_subtittle-item">仪</div>
         </h2>
-        <mu-fade-transition>
+        <mu-fade-transition >
           <div v-if="status === 'ship'" >
             <div class="entrance_ship"></div>
             <div class="entrance_btn">
@@ -261,7 +261,7 @@ export default {
       max-width: 460px;
       background-color: #ffffff;
       padding: 20px;
-      box-shadow: 0 3px 16px -5px rgba(203, 16, 228, 0.459);;
+      box-shadow: 0 3px 16px -5px rgba(203, 16, 228, 0.459);
     }
   }
 

@@ -8,10 +8,12 @@ import Api from './api/install'
 import MuseUI from 'muse-ui'
 import Message from 'muse-ui-message'
 import Toast from 'muse-ui-toast'
-
+import theme from 'muse-ui/lib/theme'
+import * as colors from 'muse-ui/lib/theme/colors'
 import 'muse-ui/dist/muse-ui.css'
 // import theme from 'muse-ui/lib/theme'
 
+import 'material-design-icons/iconfont/material-icons.css'
 import App from './App'
 import router from './router/router'
 import store from './store/store'
@@ -21,6 +23,12 @@ import store from './store/store'
 Vue.use(MuseUI)
 Vue.use(Message)
 Vue.use(Toast)
+Vue.use(theme)
+theme.add('sextant', {
+  primary: colors.deepPurpleA200,
+  secondary: colors.pinkA200
+}, 'dark')
+theme.use('sextant')
 // 状态管理
 Vue.use(Vuex)
 // 路由
